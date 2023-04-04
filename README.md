@@ -31,7 +31,7 @@ python runserver.py #Run the server
 Database: SQLite || Backend test tool: Thunder Client
 ![screenshot1](screencut/flaskapi.jpg)
 
-## Run the project in localhost
+## Run the project in localhost http://127.0.0.1:5000/
 
 ## 1. Signup a new user
 

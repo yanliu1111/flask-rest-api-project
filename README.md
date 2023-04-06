@@ -1,8 +1,15 @@
-# FLASK REST API PROJECT
+# FLASK REST API PROJECT, deployed on Render.com
 
 👍 **Very good Flask learning resource from Youtuber [Ssali Jonathan](https://www.youtube.com/watch?v=OEZxEY_wdN4&list=PLEt8Tae2spYnFMndU9EM082imnnzke07J)**
 
-## Practicing Include:
+Check out 👉 https://flask-rest-api-project-rmrw.onrender.com/
+Database transformation: SQLite -> PostgreSQL
+
+## Tools and Technologies 🛠️:
+
+Flask, Flask-SQLAlchemy, Flask-JWT-Extended, Flask-RESTX, Python-Decouple, PyTest, SwaggerUI, Werkzeug, Unittest, Render.com, PostgreSQL, DB browser, SQLite
+
+## Practicing Include 📚:
 
 - Flask REST API with Python
 - Environment variables with Python-Decouple
@@ -12,7 +19,7 @@
 - Documenting REST APIs with SwaggerUI and Flask-RESTX
 - Error Handling with Werkzeug
 
-## Basic Setup 🛠️
+## Basic Setup 🚀
 
 Enter the project folder and create a virtual environment
 

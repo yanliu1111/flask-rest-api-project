@@ -1,9 +1,15 @@
 import os
-
-from decouple import config
+import re
 from datetime import timedelta
+from decouple import config
 
 BASE_DIR=os.path.dirname(os.path.realpath(__file__))
+
+uri = config("DATABASE_URL")  # or other relevant config var
+if uri.startswith("postgres://"):
+    uri = uri.replace("postgres://", "postgresql://", 1)
+# or set key directly:
+
 
 class Config:
     SECRET_KEY=config('SECRET_KEY','secret')
@@ -25,7 +31,7 @@ class TestConfig(Config):
     SQLALCHEMY_ECHO=True
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI=config('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI=uri
     SQLALCHEMY_TRACK_MODIFICATIONS=False
     DEBUG=config('DEBUG',cast=bool)
 

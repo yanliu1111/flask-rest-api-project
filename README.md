@@ -55,5 +55,6 @@ localhost http://127.0.0.1:5000/
 
 ## 3. Authorization with JWT successfully
 
-![screenshot1](screencut/jwt1.jpg)
-![screenshot1](screencut/jwt2.jpg)
+<img src="screen/../screencut/jwt1.jpg" alt="s" width="400" height="220">
+
+<img src="screen/../screencut/jwt2.jpg" alt="s" width="400" height="200">

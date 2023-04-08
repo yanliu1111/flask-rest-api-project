@@ -1,6 +1,6 @@
 # FLASK REST API PROJECT, deployed on Render.com
 
-Deployed in Rend, check it out 👉 https://flask-rest-api-project-rmrw.onrender.com/
+Deployed in Render.com, check it out 👉 https://flask-rest-api-project-rmrw.onrender.com/
 <br>Database transformation: SQLite -> PostgreSQL
 
 ## Tools and Technologies 🛠️:

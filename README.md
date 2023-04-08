@@ -1,9 +1,7 @@
 # FLASK REST API PROJECT, deployed on Render.com
 
-👍 **Very good Flask learning resource from Youtuber [Ssali Jonathan](https://www.youtube.com/watch?v=OEZxEY_wdN4&list=PLEt8Tae2spYnFMndU9EM082imnnzke07J)**
-
-Check out 👉 https://flask-rest-api-project-rmrw.onrender.com/
-Database transformation: SQLite -> PostgreSQL
+Deployed in Rend, check it out 👉 https://flask-rest-api-project-rmrw.onrender.com/
+<br>Database transformation: SQLite -> PostgreSQL
 
 ## Tools and Technologies 🛠️:
 
@@ -58,3 +56,7 @@ localhost http://127.0.0.1:5000/
 <img src="screen/../screencut/jwt1.jpg" alt="s" width="400" height="220">
 
 <img src="screen/../screencut/jwt2.jpg" alt="s" width="400" height="200">
+
+## Reference:
+
+👍 **Very good Flask learning resource from Youtuber [Ssali Jonathan](https://www.youtube.com/watch?v=OEZxEY_wdN4&list=PLEt8Tae2spYnFMndU9EM082imnnzke07J)**

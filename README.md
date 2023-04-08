@@ -35,10 +35,13 @@ python runserver.py #Run the server
 
 ## Run the project in development environment
 
-Database: SQLite || Backend test tool: Thunder Client
+Database: SQLite || Backend test tool: Thunder Client<br>
+localhost http://127.0.0.1:5000/
 ![screenshot1](screencut/flaskapi.jpg)
 
-## Run the project in localhost http://127.0.0.1:5000/
+## Run the project in production environment
+
+![screenshot1](screencut/SwaggerUITest.jpg)
 
 ## 1. Signup a new user
 

@@ -29,6 +29,10 @@ $ pip install -r requirements.txt #Install all requirements
 python runserver.py #Run the server
 ```
 
+## Changed the id type from integer to serial in the table
+
+Note: While transferring the database schema from SQLite to PostgreSQL, I encountered errors when signing up new users and creating new orders in SwaggerUI. After thorough troubleshooting, I discovered that PostgreSQL does not auto-increment the ID, unlike SQLite. To resolve this, I deleted the transformed old table in HeidiSQL, changed the ID type to serial, created a new table, inserted data, and implemented SQL auto-increment code in the table, which resolved the issue.
+
 ## DEMO Time 🛒
 
 ## Run the project in development environment
